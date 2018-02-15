@@ -1,1 +1,22 @@
+git init
+git add F1
+git add F2
+git add F3
+git commit -m "before deleting"
+git rm --cached F2
+git checkout HEAD -- F2
+git commit -m "committing after restoring"
+git remote add origin https://github.com/mariamksalama/SE
+git pull origin master
+Git push origin master
+touch README.md
+git checkout -b ReadMe 
+git add README.md
+git commit -m "adding readme branch and readme.md file to it"
+git checkout master
+git pull origin master
+git merge ReadMe
+git push origin master
+git add AllMyCommands.txt
+git Commit -m “adding AllMyCommands file”
 
