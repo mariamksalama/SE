@@ -29,3 +29,7 @@ This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (su
 Distributed version control diagram
 Figure 3. Distributed version control.
 Furthermore, many of these systems deal pretty well with having several remote repositories they can work with, so you can collaborate with different groups of people in different ways simultaneously within the same project. This allows you to set up several types of workflows that aren’t possible in centralized systems, such as hierarchical models.
+<<<<<<< HEAD
+=======
+
+>>>>>>> aeac7513a70b2ce3ad666b8a59486449c7237ab3

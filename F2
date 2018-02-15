@@ -97,3 +97,8 @@ Because a branch in Git is actually a simple file that contains the 40 character
 This is in sharp contrast to the way most older VCS tools branch, which involves copying all of the project’s files into a second directory. This can take several seconds or even minutes, depending on the size of the project, whereas in Git the process is always instantaneous. Also, because we’re recording the parents when we commit, finding a proper merge base for merging is automatically done for us and is generally very easy to do. These features help encourage developers to create and use branches often.
 
 Let’s see why you should do so.
+<<<<<<< HEAD
+=======
+
+prev | next
+>>>>>>> aeac7513a70b2ce3ad666b8a59486449c7237ab3
